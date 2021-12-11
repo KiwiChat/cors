@@ -1,0 +1,14 @@
+{
+  "name": "cors",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "http-proxy": "1.17.0",
+    "proxy-from-env": "0.0.1"
+  }
+}
