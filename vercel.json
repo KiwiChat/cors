@@ -8,8 +8,11 @@
   ],
   "routes": [
       {
-          "src": "/(.*)",
-          "dest": "/"
+          "src": "/(?<url>.*)",
+          "dest": "/server.js?url=$url"
       }
-  ]
+  ],
+  "env": {
+    "DEBUG": "cors-escape"
+  }
 }
